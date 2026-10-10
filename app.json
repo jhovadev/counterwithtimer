@@ -2,7 +2,7 @@
   "expo": {
     "name": "timerwithcounter",
     "slug": "timerwithcounter",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "platforms": [
       "ios",
       "android"
@@ -11,16 +11,21 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jhovadev.timerwithcounter"
     },
     "android": {
+      "permissions": [
+        "android.permission.QUERY_ALL_PACKAGES"
+      ],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.jhovadev.timerwithcounter"
     },
     "scheme": "timerwithcounter",
     "extra": {
