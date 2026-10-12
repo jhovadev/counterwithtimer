@@ -1,4 +1,14 @@
-# My Angular Native app
+# timer+counter
+
+## todos 
+
+- implement notif 
+- set 2cnd plane process
+- implement sounds
+- templates?
+
+
+
 
 An Angular app rendering real native views, created from `@ng-native/template`.
 
